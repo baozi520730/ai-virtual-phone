@@ -1455,11 +1455,3 @@
 .folder-dots .dot.active {
   background: color-mix(in srgb, var(--c-home-label, #ffffff) 85%, transparent);
 }
-/* 强行给手机外壳套个紧箍咒 */
-.phone-shell, #phone-wrapper {
-  max-width: 430px; /* 限制最大宽度 */
-  max-height: 932px; /* 限制最大高度 */
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-}
